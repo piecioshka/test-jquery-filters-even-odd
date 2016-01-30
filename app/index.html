@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test-filters-even-odd</title>
+    <link rel="stylesheet" href="styles/main.css"/>
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="scripts/main.js"></script>
+</head>
+<body>
+    <div id="app">
+        <h1>Filters even/odd problem</h1>
+
+        <p>Simple list:</p>
+
+        <ol id="target">
+            <li>Odd element</li>
+            <li>Even element</li>
+        </ol>
+
+        <h2>Mistake</h2>
+
+        <p>
+            <strong>jQuery starts counting from 0, when catch even or odd numbers.</strong><br/>
+            So first item (index = 0) is divided by 0, so is <em>even</em>. Second item (index = 1) is not divide by 2, so is <em>odd</em>.
+        </p>
+
+        <p>
+            <strong>CSS selectors starts counting from 1.</strong><br/>
+            So first item (index = 1) is not divided by 2, so is <em>odd</em>. Second item (index = 2) is dividev by 0, so is <em>even</em>.
+        </p>
+    </div>
+</body>
+</html>
