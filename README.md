@@ -1,8 +1,10 @@
-# test-filters-even-odd
+# test-jquery-filters-even-odd
 
-> :ledger: Test project explains difference in filters even/odd in jQuery and CSS selectors.
+:ledger: Test project explains difference in filters even/odd in jQuery and CSS selectors.
 
-![](./app/images/list.png)
+## Demo 🎉
+
+https://piecioshka.github.io/test-jquery-filters-even-odd/src/
 
 ## Mistake
 
@@ -14,9 +16,6 @@ jQuery starts counting form 0 in each lists, so first item on list is 0.
 CSS starts counting from 1, so first item on list has index equals 1.
 
  * Number 1 is not divided by 2, so **first element is odd**.<br/>
- * Second element has index euqals 2. Of course is divided by 2, so **second element is even**.
+ * Second element has index equals 2. Of course is divided by 2, so **second element is even**.
 
-## Demo
-
-Please display simple demo available in directory app, or [here](http://piecioshka.github.io/test-filters-even-odd/).
-
+![](./src/images/list.png)
