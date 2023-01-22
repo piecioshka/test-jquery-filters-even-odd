@@ -2,7 +2,7 @@
 
 :ledger: Test project explains difference in filters even/odd in jQuery and CSS selectors.
 
-## Demo 🎉
+## Preview 🎉
 
 https://piecioshka.github.io/test-jquery-filters-even-odd/src/
 
