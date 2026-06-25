@@ -19,3 +19,7 @@ CSS starts counting from 1, so first item on list has index equals 1.
  * Second element has index equals 2. Of course is divided by 2, so **second element is even**.
 
 ![](./src/images/list.png)
+
+## License
+
+[The MIT License](http://piecioshka.mit-license.org) @ 2026
